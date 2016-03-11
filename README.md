@@ -14,15 +14,14 @@ usage
 open ```http://localhost:8080``` in your favourite browser
 
 ## Further playing and testing - Load GITOLITE Key
-*```eval "$(ssh-agent -s)"```
-*```ssh-add /vagrant/ssh/gitolite```
-
-```cd /home/vagrant/git/puppet```
+* ```eval "$(ssh-agent -s)"```
+* ```ssh-add /vagrant/ssh/gitolite```
+* ```cd /home/vagrant/git/puppet```
 
 ###Change site.pp and ssee what happens
-*```vi site/samplemodule/manifests/init.pp```
-*```git commit```
-*```git push```
+* ```vi site/samplemodule/manifests/init.pp```
+* ```git commit```
+* ```git push```
 
 #############################
 
