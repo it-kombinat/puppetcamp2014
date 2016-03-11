@@ -12,3 +12,18 @@ usage
 
 ## Login into the jenkins
 open ```http://localhost:8080``` in your favourite browser
+
+## Further playing and testing - Load GITOLITE Key
+```eval "$(ssh-agent -s)"```
+```chmod 0600 /vagrant/ssh/gitolite```
+```ssh-add /vagrant/ssh/gitolite```
+
+```cd /home/vagrant/git/puppet```
+
+###Change site.pp and ssee what happens
+```vi site/samplemodule/manifests/init.pp```
+```git commit```
+```git push```
+
+#############################
+
